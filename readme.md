@@ -40,6 +40,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
 - `lint`: runs the linter in all components and pages
+- `lint:fix`: runs the linter in all components and pages and fix them
+- `prettier`: runs the prettier in all components and pages
+- `format`: runs lint, fixes and prettier
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`

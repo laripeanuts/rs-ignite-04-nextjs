@@ -7,6 +7,20 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
+module.exports = {
+  experimental: {
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } },
+    ],
+  },
+};
+
+module.exports = {
+  experimental: {
+    forceSwcTransforms: true,
+  },
+}
+
 // const withPWA = require("next-pwa");
 
 // module.exports = withPWA({

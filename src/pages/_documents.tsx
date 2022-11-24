@@ -39,8 +39,25 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
-        <Head />
+      <Html lang="pt-br">
+        <Head>
+          <meta charSet="utf-8" />
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+          />
+          <meta
+            name="NextJS BoilerPlate"
+            content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
