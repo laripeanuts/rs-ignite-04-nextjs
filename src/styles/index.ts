@@ -12,6 +12,8 @@ export const {
 } = createStitches({
   theme: {
     colors: {
+      gradient: "linear-gradient(180deg, #1ea483 0%, #7465d4 100%)",
+
       white: "#ffffff",
       black: "#000000",
 
@@ -30,6 +32,17 @@ export const {
       blue600: "#0EA5E9",
       blue500: "#38BDF8",
       blue400: "#7DD3FC"
+    },
+
+    fontSizes: {
+      md: "1.125rem",
+      lg: "1.25rem",
+      xl: "1.5rem",
+      "2xl": "2rem"
     }
   }
+});
+
+export const Main = styled("main", {
+  width: "100%"
 });

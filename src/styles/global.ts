@@ -19,7 +19,7 @@ export const globalStyles = globalCss({
   },
 
   html: {
-    background: theme.colors.gray900
+    background: theme.colors.gray900,
   },
 
   "body, input, textarea, button": {
