@@ -7,6 +7,7 @@ export const Header = () => {
   return (
     <HeaderStyled>
       <Image src={Logo} alt="logo" />
+      <h1>T-Shop</h1>
     </HeaderStyled>
   );
 };

@@ -22,11 +22,13 @@
   "dependencies": {
     "@next/font": "^13.0.4",
     "@stitches/react": "^1.2.8",
+    "keen-slider": "^6.8.5",
     "next": "13.0.4",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-is": "^18.2.0"
+    "react-is": "^18.2.0",
+    "stripe": "^11.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -49,7 +51,6 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@types/react-is": "^17.0.3",
-    "@types/styled-components": "5.1.26",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",

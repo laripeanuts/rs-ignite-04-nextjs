@@ -14,6 +14,10 @@ module.exports = {
     ],
     forceSwcTransforms: true,
   },
+
+  images: {
+    domains: ['files.stripe.com'],
+  }
 };
 
 // const withPWA = require("next-pwa");

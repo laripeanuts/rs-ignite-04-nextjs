@@ -1,18 +1,26 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { ProductStyled } from "./styles";
 
 interface ProductProps {
-  img: StaticImageData;
-  code: string;
+  img: string;
+  name: string;
   price: string;
+  className?: string;
 }
 
-export const Product = ({ img, code, price }: ProductProps) => {
+export const Product = ({ img, name, price, className }: ProductProps) => {
   return (
-    <ProductStyled>
-      <Image src={img.src} alt={`Camisa ${code}`} width={520} height={480} />
+    <ProductStyled className={className}>
+      <Image
+        src={img}
+        alt={name}
+        width={520}
+        height={480}
+        placeholder="blur"
+        blurDataURL={img}
+      />
       <footer>
-        <strong>{`Camisa ${code}`}</strong>
+        <strong>{name}</strong>
         <span>{price}</span>
       </footer>
     </ProductStyled>

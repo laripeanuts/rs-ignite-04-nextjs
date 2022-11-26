@@ -2,6 +2,7 @@ import { styled, theme } from "styles";
 
 export const ProductStyled = styled("a", {
   background: theme.colors.gradient,
+  minWidth: "480px",
   borderRadius: 8,
   padding: "0.25rem",
   cursor: "pointer",

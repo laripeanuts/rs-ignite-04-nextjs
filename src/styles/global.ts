@@ -15,11 +15,12 @@ export const globalStyles = globalCss({
     backgroundColor: "$gray900",
     color: "$gray100",
     minHeight: "100vh",
+    fontFamily: "Roboto",
     width: "100%"
   },
 
   html: {
-    background: theme.colors.gray900,
+    background: theme.colors.gray900
   },
 
   "body, input, textarea, button": {
@@ -30,6 +31,7 @@ export const globalStyles = globalCss({
   },
 
   "h1, h2, h3, h4, h5, h6": {
+    fontFamily: "Inter",
     fontWeight: 700
   },
 
