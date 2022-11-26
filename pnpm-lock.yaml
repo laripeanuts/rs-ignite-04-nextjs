@@ -6,6 +6,7 @@ specifiers:
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
   '@next/font': ^13.0.4
+  '@stitches/react': ^1.2.8
   '@storybook/addon-essentials': ^6.5.13
   '@storybook/addons': ^6.5.13
   '@storybook/builder-webpack5': ^6.5.13
@@ -57,6 +58,7 @@ specifiers:
 
 dependencies:
   '@next/font': 13.0.4
+  '@stitches/react': 1.2.8_react@18.2.0
   next: 13.0.4_qtpcxnaaarbm4ws7ughq6oxfve
   next-pwa: 5.6.0_of2lqo7huyjgp3apb2yj2lenne
   react: 18.2.0
@@ -2395,6 +2397,14 @@ packages:
     dependencies:
       '@sinonjs/commons': 1.8.3
     dev: true
+
+  /@stitches/react/1.2.8_react@18.2.0:
+    resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
+    peerDependencies:
+      react: '>= 16.3.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@storybook/addon-actions/6.5.13_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-3Tji0gIy95havhTpSc6CsFl5lNxGn4O5Y1U9fyji+GRkKqDFOrvVLYAHPtLOpYdEI5tF0bDo+akiqfDouY8+eA==}
