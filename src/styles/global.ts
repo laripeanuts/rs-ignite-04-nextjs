@@ -1,40 +1,39 @@
-import { createGlobalStyle } from "styled-components";
+import { globalCss, theme } from ".";
 
-export const GlobalStyle = createGlobalStyle`
-  *,
-  *:after,
-  *:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    vertical-align:baseline;
-    list-style:none;
-  }
+export const globalStyles = globalCss({
+  "*": {
+    margin: 0,
+    padding: 0,
+    boxSizing: "border-box",
+    textDecoration: "none",
+    verticalAlign: "baseline",
+    listStyle: "none"
+  },
 
-  html, body #__next {
-    min-height: 100vh;
-    width: 100%;
-  }
+  body: {
+    "-webkit-font-smoothing": "antialiased",
+    backgroundColor: "$gray900",
+    color: "$gray100",
+    minHeight: "100vh",
+    width: "100%"
+  },
 
-  body {
-    font-size: 16px;
-    font-size: 100%;
-    list-style-type: none;
-    font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  }
+  html: {
+    background: theme.colors.gray900
+  },
 
-  a {
-    text-decoration: none;
-  }
+  "body, input, textarea, button": {
+    fontFamily: "Roboto",
+    fontWeight: 400,
+    textDecoration: "none",
+    background: "transparent"
+  },
 
-  ol, ul {
-    list-style: none;
-  }
+  "h1, h2, h3, h4, h5, h6": {
+    fontWeight: 700
+  },
 
-  button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
+  "a, button": {
+    cursor: "pointer"
   }
-`;
+});
