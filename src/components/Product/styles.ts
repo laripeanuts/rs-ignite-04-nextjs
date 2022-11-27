@@ -1,6 +1,6 @@
 import { styled, theme } from "styles";
 
-export const ProductStyled = styled("a", {
+export const ProductStyled = styled("div", {
   background: theme.colors.gradient,
   minWidth: "480px",
   borderRadius: 8,
@@ -36,6 +36,7 @@ export const ProductStyled = styled("a", {
     transition: "all 0.2s ease-in-out",
 
     strong: {
+      color: theme.colors.white,
       fontSize: theme.fontSizes["lg"]
     },
 

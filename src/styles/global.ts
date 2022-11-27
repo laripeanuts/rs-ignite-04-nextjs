@@ -15,7 +15,7 @@ export const globalStyles = globalCss({
     backgroundColor: "$gray900",
     color: "$gray100",
     minHeight: "100vh",
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     width: "100%"
   },
 
@@ -24,7 +24,7 @@ export const globalStyles = globalCss({
   },
 
   "body, input, textarea, button": {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontWeight: 400,
     textDecoration: "none",
     background: "transparent"

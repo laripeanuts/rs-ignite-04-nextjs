@@ -1,4 +1,4 @@
-import { Roboto } from "@next/font/google";
+import { Inter } from "@next/font/google";
 import Stripe from "stripe";
 
 import { GetStaticProps } from "next/types";
@@ -9,7 +9,7 @@ import { stripe } from "lib/stripe";
 
 import { Main } from "styles";
 
-const customFont = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const customFont = Inter({ subsets: ["latin"], weight: ["400", "700"] });
 
 interface HomeProps {
   products: ProductsType[];
@@ -43,8 +43,6 @@ export const getStaticProps: GetStaticProps = async () => {
       description: product.description
     };
   });
-
-  console.log(products);
 
   return {
     props: {

@@ -24,6 +24,7 @@ export const ProductsList = ({ products }: ProductListProps) => {
       {products?.map((product) => (
         <Product
           key={product.id}
+          id={product.id}
           img={product.image}
           name={product.name}
           price={product.price}

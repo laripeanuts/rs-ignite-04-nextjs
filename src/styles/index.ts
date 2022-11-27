@@ -13,6 +13,7 @@ export const {
   theme: {
     colors: {
       gradient: "linear-gradient(180deg, #1ea483 0%, #7465d4 100%)",
+      gradientBW: "linear-gradient(180deg, #5f5f67 0%, #121214 100%)",
 
       white: "#ffffff",
       black: "#000000",
@@ -20,6 +21,7 @@ export const {
       gray900: "#070707",
       gray800: "#121214",
       gray700: "#202024",
+      gray500: "#5f5f67",
       gray300: "#c4c4cc",
       gray100: "#e1e1e6",
 
