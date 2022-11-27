@@ -12,8 +12,8 @@ export const ProductWrapper = styled("main", {
 
 export const ImageWrapper = styled("div", {
   width: "100%",
-  maxWidth: 576,
-  height: 656,
+  maxWidth: 480,
+  height: 480,
   background: "$gradientBW",
   borderRadius: 8,
   padding: "0.25rem",

@@ -8,6 +8,7 @@ export const ProductStyled = styled("div", {
   cursor: "pointer",
   position: "relative",
   overflow: "hidden",
+  fontFamily: "inter",
 
   display: "flex",
   alignItems: "center",
