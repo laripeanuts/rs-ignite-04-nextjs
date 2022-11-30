@@ -1,50 +1,86 @@
-This is a [Next.js](https://nextjs.org/) boilerplate.
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+<div align="center">
 
-## What is inside?
+  <h1>Fundamentos NextJS</h1>
+  <p>
+    Rocketseat · Formação Ignite · 2022
+  </p>
 
-This project uses lot of stuff as:
+<!-- Badges -->
+<p>
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Lint Staged](https://github.com/okonet/lint-staged)
-- [Commitlint](https://commitlint.js.org/#/)
-- [Commitzen](https://github.com/commitizen/cz-cli)
-- [Plop](https://plopjs.com/)
-- [Pnpm](https://pnpm.js.org/)
+</p>
 
-## Getting Started
+<h4>
+    <a href="https://rs-ignite-04-nextjs.vercel.app/" target="_blank" >Demo</a>
+  <span> · </span>
+    <a href="https://www.figma.com/file/verQWddgKkCKHcaSGLsUIG/Ignite-Shop-(Copy)?node-id=521%3A100&t=9tjN3PeQChGSByBW-0">Figma</a>
+</h4>
+</div>
 
-First, run the development server:
+<br />
+
+## 💡 Projeto
+
+Projeto completo baseado no desing definido no figma, usando StichesJS e aplicando conceitos de SPA (Single Page Application) SSR (Server Side Render) e SSG (Server Side Generation).
+
+
+<!-- [Versão em português](./README-ptbr.md) -->
+
+## 🎯 Objetivos
+
+Por meio deste projeto, foi possível aprender os fundamentos do NextJS, como:
+
+- [x] Criar uma aplicação do zero com NextJS
+- [x] Utilizar o conceito de SPA (Single Page Application)
+- [x] Utilizar o conceito de SSR (Server Side Render)
+- [x] Utilizar o conceito de SSG (Server Side Generation)
+- [x] Utilizar o conceito de Static Site Generation
+- [x] Utilizar o conceito de Client Side Rendering
+
+## 🥳 Aplicação
+
+### Preview · [DEMO](https://www.figma.com/file/6xrdqvBpvBhY0IXPyDkspc/Design-System?node-id=0%3A1)
+
+<p align="center">
+  <img src="./.github/preview-01.png" alt="start" width="60%">
+  <img src="./.github/preview-02.png" alt="start" width="60%">
+  <img src="./.github/preview-03.png" alt="start" width="60%">
+</p>
+
+## 💻 Feito com
+
+[![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![REACT](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://pt-br.reactjs.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+## 🛠️ Ferramentas
+
+[![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+[![IDE](https://img.shields.io/badge/Visual_studio_code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
+[![LINUX](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)](https://pop.system76.com/)
+
+## 🦸‍♂️ Tecnologias de suporte
+
+- [StitchesJS](https://stitches.dev/docs/introduction)
+
+## 🚀 Execute o projeto
+
+Clone o projeto
+
+Vá para a raiz do diretório
+
+Instale as dependências
 
 ```bash
-npm run dev
-# or
-pnpm run dev
+  pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Inicie o ambiente de desenvolvimento
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  pnpm run dev
+```
 
-## Commands
-
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `lint:fix`: runs the linter in all components and pages and fix them
-- `prettier`: runs the prettier in all components and pages
-- `format`: runs lint, fixes and prettier
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
-- `generate`: create a component structure using plop
+<p align="center">Copyright 2022 ☕<a href="https://github.com/laripeanuts"> laripeanuts</a></p>
