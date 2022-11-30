@@ -42,25 +42,25 @@ export const DetailWrapper = styled("div", {
   ".title": {
     minHeight: 50,
     borderRadius: 6,
-    background: "$gray500"
+    background: "$gray800"
   },
 
   ".price": {
     minHeight: 50,
     width: 200,
     borderRadius: 6,
-    background: "$gray500"
+    background: "$gray800"
   },
 
   ".description": {
     minHeight: 200,
     borderRadius: 6,
-    background: "$gray500"
+    background: "$gray800"
   },
 
   ".button": {
     minHeight: 65,
     borderRadius: 6,
-    background: "$gray500"
+    background: "$gray800"
   }
 });

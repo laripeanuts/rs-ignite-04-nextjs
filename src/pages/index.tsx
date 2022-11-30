@@ -18,7 +18,7 @@ interface HomeProps {
 export default function Home({ products }: HomeProps) {
   return (
     <Main className={customFont.className}>
-      <ProductsList products={products} />
+      <ProductsList products={products} isLoading={products ? false : true} />
     </Main>
   );
 }

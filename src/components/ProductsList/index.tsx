@@ -3,14 +3,17 @@ import { Product } from "../Product/index";
 
 import { ProductsType } from "../../@types/Products";
 
+import { ProductLoading } from "components/ProductLoading";
 import "keen-slider/keen-slider.min.css";
 import { ProductsListStyled } from "./styles";
 
 interface ProductListProps {
   products?: ProductsType[];
+  isLoading?: boolean;
 }
 
-export const ProductsList = ({ products }: ProductListProps) => {
+export const ProductsList = ({ products, isLoading }: ProductListProps) => {
+  let key = 0;
   const [sliderRef] = useKeenSlider({
     slides: {
       perView: 3,
@@ -18,6 +21,18 @@ export const ProductsList = ({ products }: ProductListProps) => {
     },
     loop: true
   });
+
+  if (isLoading) {
+    return (
+      <ProductsListStyled ref={sliderRef} className="keen-slider">
+        <ProductLoading key={key++} />
+        <ProductLoading key={key++} />
+        <ProductLoading key={key++} />
+        <ProductLoading key={key++} />
+        <ProductLoading key={key++} />
+      </ProductsListStyled>
+    );
+  }
 
   return (
     <ProductsListStyled ref={sliderRef} className="keen-slider">
