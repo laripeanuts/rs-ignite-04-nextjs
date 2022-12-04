@@ -1,4 +1,5 @@
 import { Inter } from "@next/font/google";
+import Head from "next/head";
 import Stripe from "stripe";
 
 import { GetStaticProps } from "next/types";
@@ -17,9 +18,15 @@ interface HomeProps {
 
 export default function Home({ products }: HomeProps) {
   return (
-    <Main className={customFont.className}>
-      <ProductsList products={products} isLoading={products ? false : true} />
-    </Main>
+    <>
+      <Head>
+        <title>Shop</title>
+      </Head>
+
+      <Main className={customFont.className}>
+        <ProductsList products={products} isLoading={products ? false : true} />
+      </Main>
+    </>
   );
 }
 

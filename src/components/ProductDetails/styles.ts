@@ -61,7 +61,12 @@ export const DetailWrapper = styled("div", {
     fontWeight: "bold",
     fontSize: "$md",
 
-    "&:hover": {
+    "&:disabled": {
+      opacity: 0.5,
+      cursor: "not-allowed"
+    },
+
+    "&:not(:disabled):hover ": {
       background: "$green300"
     }
   }

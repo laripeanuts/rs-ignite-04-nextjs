@@ -4,4 +4,5 @@ export interface ProductsType {
   price: string;
   image: string;
   description: string | null;
+  defaultPriceId: string;
 }
