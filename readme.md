@@ -21,7 +21,7 @@
 
 ## 💡 Projeto
 
-Projeto completo baseado no desing definido no figma, usando StichesJS e aplicando conceitos de SPA (Single Page Application) SSR (Server Side Render) e SSG (Server Side Generation). Módulo 4 do Ignite da Rocketseat.
+Projeto completo baseado no design definido no figma, usando StichesJS e aplicando conceitos de SPA (Single Page Application) SSR (Server Side Render) e SSG (Server Side Generation). Módulo 4 do Ignite da Rocketseat.
 
 
 <!-- [Versão em português](./README-ptbr.md) -->
